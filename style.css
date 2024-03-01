@@ -1,33 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 body {
-    background-color: aliceblue;
+    background-color: hsl(212, 45%, 89%);
     margin: 0 auto;
     box-sizing: border-box;
+    width: 1440px;
+    min-height: 100hv;
+    font-size: 15px;
 }
 
-.nunito-fourhundred {
-    font-family: "Nunito", sans-serif;
+.outfit-qrcode {
+    font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
+  }
 
 .main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin: 100px auto;
     max-width: 300px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 1rem;
 }
 
 img {
-    max-width: 300px;
+    width: 300px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .text-container {
@@ -37,7 +40,15 @@ img {
 
 .bold-text {
     word-break: break-word;
+    color: hsl(218, 44%, 22%);
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: 700;
     padding: 0 1rem;
 }
+
+p:last-child {
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
